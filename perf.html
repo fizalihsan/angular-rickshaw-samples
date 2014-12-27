@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>angular-rickshaw</title>
+
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/rickshaw/rickshaw.min.css"/>
+    </head>
+    <body>
+
+
+<div ng-controller='HomeCtrl'>
+    <h3>Hover detail</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">Rickshaw graph with hover detail</div>
+        <div class="panel-body">
+            <rickshaw rickshaw-options="options2" rickshaw-features="features2" rickshaw-series="series2"></rickshaw>
+        </div>
+    </div>
+
+</div>
+
+        <script type="text/javascript" src="js/vendors/angular/angular.min.js"></script>
+        <script type="text/javascript" src="js/vendors/angular-sanitize/angular-sanitize.min.js"></script>
+        <script type="text/javascript" src="js/vendors/angular-route/angular-route.min.js"></script>
+        <script type="text/javascript" src="js/vendors/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+        <script type="text/javascript" src="js/vendors/d3/d3.min.js"></script>
+        <script type="text/javascript" src="js/vendors/rickshaw/rickshaw.min.js"></script>
+
+        <script type="text/javascript" src="js/vendors/angular-rickshaw/rickshaw.js"></script>
+        <script type="text/javascript" src="js/vendors/angular-rickshaw/app.js"></script>
+        <script type="text/javascript" src="js/perf.js"></script>
+    </body>
+</html>
